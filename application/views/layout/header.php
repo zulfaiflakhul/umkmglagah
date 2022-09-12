@@ -39,7 +39,7 @@
                             <a class="nav-link js-scroll-trigger" href="<?= site_url()?>/home#kategori">Produk</a>
                         </li>
                         <li class="nav-item"><a class="nav-link js-scroll-trigger" href="<?= site_url()?>/home#about">Tentang</a></li>
-                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="<?= site_url()?>/home#team">Team</a></li>
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="<?= site_url()?>/home#team">Explore</a></li>
                         <li class="nav-item"><a class="nav-link js-scroll-trigger" href="<?= site_url()?>/home#contact">Kontak</a></li>
                         <li class="nav-item">
                             <a class="btn btn-primary" href="<?= site_url()?>/administrator"> Masuk <i class="fas fa-sign-in-alt"></i></a>

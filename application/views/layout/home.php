@@ -6,7 +6,7 @@
                     <div class="">
                         <h1>UMKM </span> Desa Glagah</h2>
                         <p>
-                            UMKM Desa Glagah merupakan sebuah komunitas dengan tujuan sebagai wadah berkumpulnya para pelaku Usaha Mikro, Kecil, dan Menengah (UMKM) desa Glagah UMKM Desa Glagah hadir dengan memberikan dukungan penuh kepada pelaku UMKM di Desa Glagah untuk maju ke arah digital.
+                            UMKM Desa Glagah merupakan sebuah komunitas dengan tujuan sebagai wadah berkumpulnya para pelaku Usaha Mikro, Kecil, dan Menengah (UMKM) Desa Glagah. UMKM ini hadir dengan memberikan dukungan penuh kepada pelaku UMKM di Desa Glagah, Jatinom, Klaten, Jawa Tengah untuk maju ke arah digital.
                         </p>
                         <a type="button" class="btn btn-primary" href="<?= site_url()?>/home#about">
                             NEXT
@@ -35,7 +35,7 @@
                             <i class="fas fa-box fa-stack-1x fa-inverse"></i>
                         </span>
                         <h4 class="my-3">Produk Barang</h4></a>
-                        <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
+                        <p class="text-muted">Produk yang dihasilkan di Desa Glagah berupa barang khas maupun kerajinan yang dihasilakn atau dibuat oleh pelaku UMKM di desa setempat.</p>
                     </div>
                     <div class="col-md-3">
                         <a href="<?= site_url()?>/home#kategori" class="text-dark">
@@ -44,7 +44,7 @@
                             <i class="fas fa-tshirt fa-stack-1x fa-inverse"></i>
                         </span>
                         <h4 class="my-3">Fashion</h4></a>
-                        <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
+                        <p class="text-muted">Pakaian maupun aksesoris yang diproduksi atau dijual oleh masyarakat Desa Glagah. Selain itu, juga menyediakan jasa yang menawarkan mengenai fashion atau pakaian.</p>
                     </div>
                     <div class="col-md-3">
                         <a href="<?= site_url()?>/home#kategori" class="text-dark">
@@ -53,7 +53,7 @@
                             <i class="fas fa-utensils fa-stack-1x fa-inverse"></i>
                         </span>
                         <h4 class="my-3">Makanan</h4></a>
-                        <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
+                        <p class="text-muted">Memproduksi atau menjual olahan makanan khas Desa Glagah maupun bahan makanan yang diproduksi secara mandiri maupun berkelompok.</p>
                     </div>
                     <div class="col-md-3">
                         <a href="<?= site_url()?>/home#kategori" class="text-dark">
@@ -61,8 +61,8 @@
                             <i class="fas fa-circle fa-stack-2x text-primary"></i>
                             <i class="fas fa-laptop fa-stack-1x fa-inverse"></i>
                         </span>
-                        <h4 class="my-3">Teknologi</h4></a>
-                        <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
+                        <h4 class="my-3">Properti</h4></a>
+                        <p class="text-muted">Menyediakan terkait properti atau bahan bangunan yang diproduksi atau dihasilakn serta berada di Desa Glagah.</p>
                     </div>
                 </div>
             </div>
