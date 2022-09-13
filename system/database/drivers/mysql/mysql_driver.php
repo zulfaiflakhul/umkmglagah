@@ -144,14 +144,14 @@ class CI_DB_mysql_driver extends CI_DB {
 
 			return ($this->db_debug === TRUE)
 				? $this->display_error('db_unable_to_select', $this->database)
-				: FALSE;`
+				: FALSE;
 		}
 
 		if (isset($this->stricton) && is_resource($this->conn_id))
 		{
 			if ($this->stricton)
 			{
-				$this->simple_query('SET SESSION sql_mode = (SELECT REPLACE(@@sql_mode,'ONLY_FULL_GROUP_BY','')');
+				$this->simple_query('SET SESSION sql_mode = CONCAT(@@sql_mode, ",", "STRICT_ALL_TABLES")');
 			}
 			else
 			{
