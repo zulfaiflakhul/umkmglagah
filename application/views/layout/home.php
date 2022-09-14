@@ -15,7 +15,7 @@
                 </div>
                 <div class="col-lg-6 text-center align-self-center">
                     <div class="">
-                    <img src="<?php echo base_url()?>assets/img/bg-umkm-1.png" alt=""/>
+                    <img src="<?php echo base_url()?>assets/img/bg-umkm-1.png" width="200" alt=""/>
                     </div>
                 </div>
             </div>
