@@ -8,11 +8,11 @@ class Dashboard extends CI_Controller{
         };
 		$this->load->model('m_pengunjung');
 	}
-	function index(){
+	/*function index(){
 			$x['visitor'] = $this->m_pengunjung->statistik_pengujung();
 			$this->load->view('admin/v_dashboard',$x);
 	
-	}
+	}*/
 	function super(){
 		$x['visitor'] = $this->m_pengunjung->statistik_pengujung();
 		$this->load->view('admin/v_admin',$x);
