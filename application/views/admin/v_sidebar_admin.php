@@ -13,14 +13,14 @@
       <!-- sidebar menu: : style can be found in sidebar.less -->
       <ul class="sidebar-menu">
         <li class="header">Menu Utama</li>
-        <li>
+        <!--<li>
           <a href="<?php echo site_url().'/admin/dashboard/super'?>">
             <i class="fa fa-home"></i> <span>Dashboard</span>
             <span class="pull-right-container">
               <small class="label pull-right"></small>
             </span>
           </a>
-        </li>
+        </li>-->
         <li class="treeview active">
           <a href="#">
             <i class="fa fa-archive"></i>
