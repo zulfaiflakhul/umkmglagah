@@ -15,7 +15,7 @@
                 </div>
                 <div class="col-lg-6 text-center align-self-center">
                     <div class="">
-                    <img src="<?php echo base_url()?>assets/img/bg-umkm-1.png" width="300" padding="10px" alt=""/>
+                    <img src="<?php echo base_url()?>assets/img/bg-umkm-1.png" width="300" alt=""/>
                     </div>
                 </div>
             </div>
@@ -35,7 +35,7 @@
                             <i class="fas fa-box fa-stack-1x fa-inverse"></i>
                         </span>
                         <h4 class="my-3">Produk Barang</h4></a>
-                        <p class="text-muted">Produk yang dihasilkan di Desa Glagah berupa barang khas maupun kerajinan yang dihasilakn atau dibuat oleh pelaku UMKM di desa setempat.</p>
+                        <p class="text-muted">Produk yang dihasilkan di Desa Glagah berupa barang khas maupun kerajinan yang dihasilkan atau dibuat oleh pelaku UMKM di desa setempat.</p>
                     </div>
                     <div class="col-md-3">
                         <a href="<?= site_url()?>/home#kategori" class="text-dark">
@@ -62,7 +62,7 @@
                             <i class="fas fa-laptop fa-stack-1x fa-inverse"></i>
                         </span>
                         <h4 class="my-3">Properti</h4></a>
-                        <p class="text-muted">Menyediakan terkait properti atau bahan bangunan yang diproduksi atau dihasilakn serta berada di Desa Glagah.</p>
+                        <p class="text-muted">Menyediakan terkait properti atau bahan bangunan yang diproduksi atau dihasilkan serta berada di Desa Glagah.</p>
                     </div>
                 </div>
             </div>
