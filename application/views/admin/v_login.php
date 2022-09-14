@@ -32,8 +32,6 @@
       }
       .form-login{
         background: #fffe;
-        margin-left: 500px;
-        margin-right: 500px;
         padding: 30px
       }
       .loginpage-logo{
