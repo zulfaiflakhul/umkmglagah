@@ -26,7 +26,7 @@ class Administrator extends CI_Controller{
 
             $this->session->set_userdata($newdata);
             if($xcadmin['pengguna_level']=='1')
-            redirect('admin/dashboard');
+            redirect('admin/produk');
             if($xcadmin['pengguna_level']=='2')
             redirect('admin/produk/super'); 
             
