@@ -53,11 +53,11 @@
         <div class="row">
           <div class="col-md-12">
             <div class="animate form-login">
-      <section class="">
-        <form action="<?php echo site_url('/administrator/auth')?>" method="POST">
-          <h3 class="text-danger"><i class="fa fa-map-marker"></i> UMKM DESA GLAGAH</h3>
-            <h1>Login Form</h1>
-              <?=$this->session->flashdata('msg')?>
+              <section class="">
+                <form action="<?php echo site_url('/administrator/auth')?>" method="POST">
+                  <h3 class="text-danger"><i class="fa fa-map-marker"></i> UMKM DESA GLAGAH</h3>
+                  <h1>Login Form</h1>
+                <?=$this->session->flashdata('msg')?>
                 <div class="form-group">
                   <label>Username</label>
                   <input type="text" class="form-control" placeholder="Username" name="username" required="" />
