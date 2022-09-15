@@ -74,7 +74,7 @@
                  </div>
                  <!-- /.box-header -->
                  <div class="box-body">
-                   <table id="example1" class="table table-striped" style="font-size:13px;">
+                   <table id="example1" class="table table-striped" style="font-size:13px;overflow-x:auto;">
                      <thead>
                        <tr>
                          <th>Gambar</th>
