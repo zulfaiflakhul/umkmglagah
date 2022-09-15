@@ -1698,6 +1698,8 @@ pre code {
 
 .table-striped tbody tr:nth-of-type(odd) {
   background-color: rgba(0, 0, 0, 0.05);
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
 }
 
 .table-hover tbody tr:hover {
@@ -1904,6 +1906,8 @@ pre code {
 }
 .table-dark.table-striped tbody tr:nth-of-type(odd) {
   background-color: rgba(255, 255, 255, 0.05);
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
 }
 .table-dark.table-hover tbody tr:hover {
   color: #fff;
