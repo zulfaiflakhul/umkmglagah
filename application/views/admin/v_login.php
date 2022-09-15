@@ -47,7 +47,12 @@
       <img src="<?php echo base_url()?>assets/img//logos/logo-umkm.png" width="300"/>
     </div>
 
-    <div class="animate form-login">
+    <div>
+      <div class="col-md-2 col-sm-6 col-xs-12"></div>
+      <div class="col-md-8 col-sm-6 col-xs-12">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="animate form-login">
       <section class="">
         <form action="<?php echo site_url('/administrator/auth')?>" method="POST">
           <h3 class="text-danger"><i class="fa fa-map-marker"></i> UMKM DESA GLAGAH</h3>
@@ -85,6 +90,11 @@
           Password : admin
         </div>-->
     </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
     <!--<div class="col-sm-12"> <br><br><br><br><br><br> </div>
         <div class="col-md-6 col-sm-6 col-xs-12">
           <div class="row">
