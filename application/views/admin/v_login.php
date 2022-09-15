@@ -23,8 +23,8 @@
         background-image: url('<?php echo base_url('assets/images/background.jpg')?>');
         background-size: cover;
         background-repeat: no-repeat;
-        height: 100vh;
-        width: 100%;
+        height: auto;
+        max-width: 100%;
         top: 0
       }
       .login_wrapper{
@@ -32,7 +32,8 @@
       }
       .form-login{
         background: #fffe;
-        padding: 30px
+        margin: 30px;
+        padding: 15px
       }
       .loginpage-logo{
         background-color: #023047;
