@@ -23,7 +23,7 @@
         background-size: cover;
         background-repeat: no-repeat;
         height: auto;
-        max-width: 100%;
+        max-width: auto;
         top: 0
       }
       .login_wrapper{

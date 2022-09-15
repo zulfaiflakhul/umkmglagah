@@ -24,7 +24,7 @@
         background-size: cover;
         background-repeat: no-repeat;
         height: auto;
-        max-width: 100%;
+        max-width: auto;
         top: 0
       }
       .login_wrapper{
@@ -37,7 +37,7 @@
       }
       .loginpage-logo{
         background-color: #023047;
-        margin-bottom: 100px;
+        margin-bottom: 30px;
         padding: 20px;
       }
     </style>
