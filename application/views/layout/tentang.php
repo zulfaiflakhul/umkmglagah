@@ -1,6 +1,6 @@
 <!-- About-->
         <section class="page-section" id="about">
-            < class="container">
+            <div class="container">
                 <div class="text-center">
                     <h2 class="section-heading text-uppercase">UMKM DESA GLAGAH, KECAMATAN JATINOM, KABUPATEN KLATEN</h2>
                     <h3 class="section-subheading text-muted">Website ini digunakan untuk membantu para pelaku UMKM Desa Glagah dalam pemasaran produk secara digital</h3>
