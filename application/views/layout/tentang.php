@@ -18,9 +18,8 @@
                 </div>
                 <div>
                     <li style="text-align: left;">
-                        <mark>Mempermudah Komunikasi antara pembeli dan penjual</mark>
-                        <br>
-                        Dengan masuknya produk anda di website UMKM GLAGAH, dapat mempermudah komunikasi antara seller dan buyer karena pada tiap produk yang telah kami upload, selalu menempatkan link nomor telephone seller agar mempermudah buyer dalam melakukan komunikasi lebih lanjut.
+                        <mark>Mempermudah Komunikasi antara pembeli dan penjual<br>Dengan masuknya produk anda di website UMKM GLAGAH, dapat mempermudah komunikasi antara seller dan buyer karena pada tiap produk yang telah kami upload, selalu menempatkan link nomor telephone seller agar mempermudah buyer dalam melakukan komunikasi lebih lanjut.
+                        </mark>
                     </li>
                     <li style="text-align: left;">
                         <mark>Menjangkau Target Pasar Lebih Luas</mark>
