@@ -16,7 +16,7 @@
 
                     <h3 class="section-heading">Kelebihan Produk Anda Masuk di Website UMKM GLAGAH</h3>
                 </div>
-                <div>
+                <ol>
                     <li style="text-align: left;">
                         <mark>Mempermudah Komunikasi antara pembeli dan penjual<br>Dengan masuknya produk anda di website UMKM GLAGAH, dapat mempermudah komunikasi antara seller dan buyer karena pada tiap produk yang telah kami upload, selalu menempatkan link nomor telephone seller agar mempermudah buyer dalam melakukan komunikasi lebih lanjut.
                         </mark>
@@ -37,6 +37,6 @@
                         <mark>Usaha Lebih Dikenal</mark>
                         <p class="text-muted">Dengan website UMKM GLAGAH ini, usaha anda dapat lebih dikenal baik dari lokal maupun wisatawan yang berkunjung ke website UMKM GLAGAH ini.</p>
                     </li>
-                </div>
+                </ol>
             </div>
         </section>
