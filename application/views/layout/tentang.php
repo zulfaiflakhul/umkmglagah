@@ -12,11 +12,12 @@
 
                     <h3 class="section-heading">Website UMKM Desa Glagah</h3>
                     <p class="text-muted">Website UMKM GLAGAH merupakan website inkubator atau penyedia bagi para pelaku UMKM Desa Glagah. Di dalam websit ini dapat menampilkan deskripsi singkat usaha dan produk anda. Sehingga dengan adanya website ini dapat membantu memperluas pasar UMKM di Desa Glagah.</p>
+
+                    <h3 class="section-heading">Kelebihan Produk Anda Masuk di Website UMKM GLAGAH</h3>
                     <hr color="black">
                 </div>
                 <div>
                     <li style="text-align: left;">
-                    <h3 class="section-heading">Kelebihan Produk Anda Masuk di Website UMKM GLAGAH</h3>
                     <mark>Mempermudah Komunikasi antara pembeli dan penjual</mark>
                     <p class="text-muted">Dengan masuknya produk anda di website UMKM GLAGAH, dapat mempermudah komunikasi antara seller dan buyer karena pada tiap produk yang telah kami upload, selalu menempatkan link nomor telephone seller agar mempermudah buyer dalam melakukan komunikasi lebih lanjut.</p>
                 </li>
