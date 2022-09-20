@@ -228,7 +228,7 @@ $jum_komentar = $query1->num_rows();
     <script type="text/javascript">
       $.toast({
         heading: 'Success',
-        text: "Berita Berhasil disimpan ke database.",
+        text: "Produk Berhasil disimpan ke database.",
         showHideTransition: 'slide',
         icon: 'success',
         hideAfter: false,
@@ -240,7 +240,7 @@ $jum_komentar = $query1->num_rows();
     <script type="text/javascript">
       $.toast({
         heading: 'Info',
-        text: "Berita berhasil di update",
+        text: "Produk berhasil di update",
         showHideTransition: 'slide',
         icon: 'info',
         hideAfter: false,
@@ -252,7 +252,7 @@ $jum_komentar = $query1->num_rows();
     <script type="text/javascript">
       $.toast({
         heading: 'Success',
-        text: "Berita Berhasil dihapus.",
+        text: "Produk Berhasil dihapus.",
         showHideTransition: 'slide',
         icon: 'success',
         hideAfter: false,
