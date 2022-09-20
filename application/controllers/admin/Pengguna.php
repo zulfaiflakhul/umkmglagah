@@ -286,7 +286,7 @@ class Pengguna extends CI_Controller{
 		delete_files($path);
 		$this->m_pengguna->hapus_pengguna($kode);
 	    echo $this->session->set_flashdata('msg','success-hapus');
-	    redirect('admin/pengguna');
+	    redirect('admin/pengguna/super');
 	}
 
 	function reset_password(){
