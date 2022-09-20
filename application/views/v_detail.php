@@ -32,7 +32,7 @@
                             <p class="card-text">
                                 <!--<a class="btn btn-primary" href="<?php echo site_url().'/home/order/'.$b['produk_id'];?>#order" role="button"><i class="fas fa-cart-plus"></i> Pesan Produk</a>-->
 
-                                <a class="btn btn-primary" href="https://api.whatsapp.com/send?phone=<?php echo $nohp ?>" role="button"><i class="fas fa-cart-plus"></i> Pesan Produk</a>
+                                <a class="btn btn-primary" href="https://api.whatsapp.com/send?phone= <?php echo $b['pengguna_nohp'];?>" role="button"><i class="fas fa-cart-plus"></i> Pesan Produk</a>
                                 <a class="btn btn-secondary" href="<?php echo site_url().'/home/get_detail/'.$b['produk_id'];?>#desk" role="button"><i class="fas fa-poll-h"></i> Deskripsi Produk</a>
                                 <a class="btn btn-info" href="<?php echo site_url().'/home/get_detail/'.$b['produk_id'];?>#desk" role="button"><i class="fas fa-map-marked-alt"></i> Lokasi UMKM</a>
                                 
