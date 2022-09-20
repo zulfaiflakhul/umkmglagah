@@ -26,7 +26,7 @@
                             <h4 class="card-title text-uppercase mb-4"><i class="fas fa-store-alt mr-4"></i> <?php echo $b['pengguna_nama'];?></h4><hr>
                             <h5 class="card-title"><?php echo $b['produk_judul'];?></h5>
                             <h7 class="card-title">Kategori <?php echo $b['produk_kategori_nama'];?></h7><br><br>
-                            <h6 class="card-title">Total Rp. <?php echo $b['nohp'];?></h6>
+                            <h6 class="card-title">Total Rp. <?php echo nohp;?></h6>
                             <br>
 
                             <p class="card-text">
