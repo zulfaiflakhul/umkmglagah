@@ -146,13 +146,13 @@
          <div class="modal-content">
            <div class="modal-header">
              <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true"><span class="fa fa-close"></span></span></button>
-             <h4 class="modal-title" id="myModalLabel">Hapus Berita</h4>
+             <h4 class="modal-title" id="myModalLabel">Hapus Produk</h4>
            </div>
            <form class="form-horizontal" action="<?php echo site_url() . '/admin/produk/hapus_produk' ?>" method="post" enctype="multipart/form-data">
              <div class="modal-body">
                <input type="hidden" name="kode" value="<?php echo $produk_id; ?>" />
                <input type="hidden" value="<?php echo $produk_gambar; ?>" name="gambar">
-               <p>Apakah Anda yakin mau menghapus Posting <b><?php echo $produk_judul; ?></b> ?</p>
+               <p>Apakah Anda yakin mau menghapus Produk <b><?php echo $produk_judul; ?></b> ?</p>
 
              </div>
              <div class="modal-footer">
@@ -215,7 +215,7 @@
      <script type="text/javascript">
        $.toast({
          heading: 'Success',
-         text: "Berita Berhasil disimpan ke database.",
+         text: "Produk Berhasil disimpan ke database.",
          showHideTransition: 'slide',
          icon: 'success',
          hideAfter: false,
@@ -227,7 +227,7 @@
      <script type="text/javascript">
        $.toast({
          heading: 'Info',
-         text: "Berita berhasil di update",
+         text: "Produk berhasil di update",
          showHideTransition: 'slide',
          icon: 'info',
          hideAfter: false,
@@ -239,7 +239,7 @@
      <script type="text/javascript">
        $.toast({
          heading: 'Success',
-         text: "Berita Berhasil dihapus.",
+         text: "Produk Berhasil dihapus.",
          showHideTransition: 'slide',
          icon: 'success',
          hideAfter: false,
