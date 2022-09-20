@@ -159,7 +159,7 @@ $jum_komentar = $query1->num_rows();
         <div class="modal-content">
           <div class="modal-header">
             <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true"><span class="fa fa-close"></span></span></button>
-            <h4 class="modal-title" id="myModalLabel">Hapus Berita</h4>
+            <h4 class="modal-title" id="myModalLabel">Hapus Produk</h4>
           </div>
           <form class="form-horizontal" action="<?php echo site_url() . '/admin/produk/hapus_produk_admin' ?>" method="post" enctype="multipart/form-data">
             <div class="modal-body">
