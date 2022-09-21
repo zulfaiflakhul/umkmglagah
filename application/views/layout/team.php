@@ -19,13 +19,13 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-3 col-sm-6">
-                        <a href="#!"><img class="img-fluid d-block mx-auto" src="<?php echo base_url()?>assets/img/logos/logo-klaten.png" alt="" /></a>
+                        <a href="https://klatenkab.go.id/"><img class="img-fluid d-block mx-auto" src="<?php echo base_url()?>assets/img/logos/logo-klaten.png" alt="" /></a>
                     </div>
                     <div class="col-md-3 col-sm-6">
-                        <a href="#!"><img class="img-fluid d-block mx-auto" src="<?php echo base_url()?>assets/img/logos/logo-uny.png" alt="" /></a>
+                        <a href="https://www.uny.ac.id/"><img class="img-fluid d-block mx-auto" src="<?php echo base_url()?>assets/img/logos/logo-uny.png" alt="" /></a>
                     </div>
                     <div class="col-md-3 col-sm-6">
-                        <a href="#!"><img class="img-fluid d-block mx-auto" src="<?php echo base_url()?>assets/img/logos/logo-dilan-dark.png" alt="" /></a>
+                        <a href="https://glagah.jatinom.klatenkab.go.id/"><img class="img-fluid d-block mx-auto" src="<?php echo base_url()?>assets/img/logos/logo-dilan-dark.png" alt="" /></a>
                     </div>
                     <div class="col-md-3 col-sm-6">
                         <a href="#!"><img class="img-fluid d-block mx-auto" src="<?php echo base_url()?>assets/img/logos/hut-klaten.png" alt="" /></a>
