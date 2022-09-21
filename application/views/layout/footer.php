@@ -1,8 +1,8 @@
         <!-- Footer-->
         <footer class="footer py-4">
             <div class="container">
-                <div class="row align-items-center">
-                    <div class="text-lg-center">Copyright © UMKM GLAGAH KKN UNY 2022</div>
+                <div class="text-center">
+                    <div class="text-lg-center">Copyright © UMKM GLAGAH | TEAM KKN UNY 2022</div>
                     <!--<div class="col-lg-4 text-lg-left">Copyright © UMKM GLAGAH KKN UNY 2022</div>
                     <div class="col-lg-4 my-3 my-lg-0">
                         <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-twitter"></i></a>
