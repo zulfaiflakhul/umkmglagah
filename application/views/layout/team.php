@@ -3,7 +3,6 @@
             <div class="container">
                 <div class="text-center">
                     <h2 class="section-heading text-uppercase">desa glagah</h2>
-                    <h3 class="section-subheading text-muted"></h3>
                 </div>
                 <!--<div class="row">
                     <div class="col-lg-3">
@@ -64,10 +63,10 @@
                         <a href="#!"><img class="img-fluid d-block mx-auto" src="<?php echo base_url()?>assets/img/logos/logo-klaten.png" alt="" /></a>
                     </div>
                     <div class="col-md-3 col-sm-6 my-3">
-                        <a href="#!"><img class="img-fluid d-block mx-auto" src="<?php echo base_url()?>assets/img/logos/hut-klaten.png" alt="" /></a>
+                        <a href="#!"><img class="img-fluid d-block mx-auto" src="<?php echo base_url()?>assets/img/logos/logo-dilan-dark.png" alt="" /></a>
                     </div>
                     <div class="col-md-3 col-sm-6 my-3">
-                        <a href="#!"><img class="img-fluid d-block mx-auto" src="<?php echo base_url()?>assets/img/logos/logo-klaten.png" alt="" /></a>
+                        <a href="#!"><img class="img-fluid d-block mx-auto" src="<?php echo base_url()?>assets/img/logos/logo-kkn.png" alt="" /></a>
                     </div>
                     <div class="col-md-3 col-sm-6 my-3">
                         <a href="#!"><img class="img-fluid d-block mx-auto" src="<?php echo base_url()?>assets/img/logos/hut-klaten.png" alt="" /></a>
