@@ -106,7 +106,7 @@ $jum_komentar = $query1->num_rows();
 
                       ?>
                         <tr>
-                          <td><img src="<?php $produk_gambar; ?>" style="width:90px;"></td>
+                          <td><img src="<?php echo base_url() . 'assets/images/' . $produk_gambar; ?>" style="width:90px;"></td>
                           <td><?php echo $produk_judul; ?></td>
                           <td><?php echo $produk_harga; ?></td>
                           <td><?php echo substr($produk_isi, 0, 120) ?>...</td>

@@ -17,7 +17,7 @@
                 <div class="card" style="max-width: 1500px;">
                 <div class="row no-gutters">
                     <div class="col-md-4">
-                        <img src="<?php $b['produk_gambar'];?>"style="width: 450px;height: 340px;" class="card-img" alt="...">
+                        <img src="<?php echo base_url('assets/images/').$b['produk_gambar'];?>"style="width: 450px;height: 340px;" class="card-img" alt="...">
                     </div>
                     
                     <div class="col-md-1"></div>
