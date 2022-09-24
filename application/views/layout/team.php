@@ -10,7 +10,7 @@
                 </div>
                 <div class="text-center">
                     <div id="wisata"></div>
-                    <button class="btn btn-primary btn-xl text-uppercase" id="ExploreWisataButton" type="submit">Explore Wisata Desa Glagah</button>
+                    <a class="btn btn-primary" href="https://wisataglagah.herokuapp.com/" role="button"><i class="fas fa-cart-plus"></i>EXPLORE WISATA GLAGAH</a>
                 </div>
             </div>
         </section>
