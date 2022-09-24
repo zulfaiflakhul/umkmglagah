@@ -10,7 +10,7 @@
                 </div>
                 <div class="text-center">
                     <div id="wisata"></div>
-                    <a class="btn btn-primary" href="https://wisataglagah.herokuapp.com/" role="button"><i class="fas fa-cart-plus"></i>EXPLORE WISATA GLAGAH</a>
+                    <a class="btn btn-primary" href="https://wisataglagah.herokuapp.com/" role="button"><i></i>EXPLORE WISATA GLAGAH</a>
                 </div>
             </div>
         </section>
