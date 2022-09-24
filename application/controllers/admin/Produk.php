@@ -46,7 +46,7 @@ class Produk extends CI_Controller{
 		$this->load->view('admin/v_edit_produk_admin',$x);
 	}
 	function simpan_produk(){
-				$config['upload_path'] = 'assets/images/'; //path folder
+				$config['upload_path'] = base_url().'assets/images/'; //path folder
 	            $config['allowed_types'] = 'gif|jpg|png|jpeg|bmp'; //type yang dapat diakses bisa anda sesuaikan
 	            $config['encrypt_name'] = TRUE; //nama yang terupload nantinya
 
@@ -58,13 +58,13 @@ class Produk extends CI_Controller{
 	                        $gbr = $this->upload->data();
 	                        //Compress Image
 	                        $config['image_library']='gd2';
-	                        $config['source_image']='assets/images/'.$gbr['file_name'];
+	                        $config['source_image']=base_url().'assets/images/'.$gbr['file_name'];
 	                        $config['create_thumb']= FALSE;
 	                        $config['maintain_ratio']= FALSE;
 	                        $config['quality']= '60%';
 	                        $config['width']= 840;
 	                        $config['height']= 450;
-	                        $config['new_image']= 'assets/images/'.$gbr['file_name'];
+	                        $config['new_image']= base_url().'assets/images/'.$gbr['file_name'];
 	                        $this->load->library('image_lib', $config);
 	                        $this->image_lib->resize();
 
@@ -101,7 +101,7 @@ class Produk extends CI_Controller{
 	
 	function update_produk(){
 				
-	            $config['upload_path'] = 'assets/images/'; //path folder
+	            $config['upload_path'] = base_url().'assets/images/'; //path folder
 	            $config['allowed_types'] = 'gif|jpg|png|jpeg|bmp'; //type yang dapat diakses bisa anda sesuaikan
 	            $config['encrypt_name'] = TRUE; //nama yang terupload nantinya
 
@@ -113,13 +113,13 @@ class Produk extends CI_Controller{
 	                        $gbr = $this->upload->data();
 	                        //Compress Image
 	                        $config['image_library']='gd2';
-	                        $config['source_image']='assets/images/'.$gbr['file_name'];
+	                        $config['source_image']=base_url().'assets/images/'.$gbr['file_name'];
 	                        $config['create_thumb']= FALSE;
 	                        $config['maintain_ratio']= FALSE;
 	                        $config['quality']= '60%';
 	                        $config['width']= 840;
 	                        $config['height']= 450;
-	                        $config['new_image']= 'assets/images/'.$gbr['file_name'];
+	                        $config['new_image']= base_url().'assets/images/'.$gbr['file_name'];
 	                        $this->load->library('image_lib', $config);
 	                        $this->image_lib->resize();
 
@@ -176,7 +176,7 @@ class Produk extends CI_Controller{
 	}
 	function update_produk_admin(){
 				
-        $config['upload_path'] = 'assets/images/'; //path folder
+        $config['upload_path'] = base_url().'assets/images/'; //path folder
         $config['allowed_types'] = 'gif|jpg|png|jpeg|bmp'; //type yang dapat diakses bisa anda sesuaikan
         $config['encrypt_name'] = TRUE; //nama yang terupload nantinya
 
@@ -188,13 +188,13 @@ class Produk extends CI_Controller{
                     $gbr = $this->upload->data();
                     //Compress Image
                     $config['image_library']='gd2';
-                    $config['source_image']='assets/images/'.$gbr['file_name'];
+                    $config['source_image']=base_url().'assets/images/'.$gbr['file_name'];
                     $config['create_thumb']= FALSE;
                     $config['maintain_ratio']= FALSE;
                     $config['quality']= '60%';
                     $config['width']= 840;
                     $config['height']= 450;
-                    $config['new_image']= 'assets/images/'.$gbr['file_name'];
+                    $config['new_image']= base_url().'assets/images/'.$gbr['file_name'];
                     $this->load->library('image_lib', $config);
                     $this->image_lib->resize();
 
@@ -253,7 +253,7 @@ class Produk extends CI_Controller{
 	function hapus_produk(){
 		$kode=$this->input->post('kode');
 		$gambar=$this->input->post('gambar');
-		$path='./assets/images/'.$gambar;
+		$path=base_url().'assets/images/'.$gambar;
 		unlink($path);
 		$this->m_produk->hapus_produk($kode);
 		echo $this->session->set_flashdata('msg','success-hapus');
@@ -262,7 +262,7 @@ class Produk extends CI_Controller{
 	function hapus_produk_admin(){
 		$kode=$this->input->post('kode');
 		$gambar=$this->input->post('gambar');
-		$path='./assets/images/'.$gambar;
+		$path=base_url().'assets/images/'.$gambar;
 		unlink($path);
 		$this->m_produk->hapus_produk($kode);
 		echo $this->session->set_flashdata('msg','success-hapus');
